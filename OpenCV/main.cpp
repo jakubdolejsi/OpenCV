@@ -6,9 +6,12 @@
 //
 
 #include <iostream>
+#include "Engine.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    //const char a = "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";
+    Engine engine = Engine();
+    engine.run();
+    
     return 0;
 }
